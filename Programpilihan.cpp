@@ -6,7 +6,7 @@ using namespace std;
 
 int main (){
 
-	char pilihan;
+	int pilihan;
 	cout << " ----------- Ilmu Komputer Mart ----------- " << endl;
 	cout << " -------- Jln.Gatot Subroto No.100 -------- " << endl;
 	cout << " ---Yosodadi Kota Metro Kode Pos 34.111 --- " << endl;
@@ -26,7 +26,7 @@ int main (){
 
 	cout << "C. Susu SGM" << endl;
 	cout << " 	1. Ukuran Kecil " << endl;
-	cout << " 	2. Ukuran Sedang " << endl;
+	cout << " 	2. Ukuran Sedang " << endl:
 	cout << " 	3. Ukuran Besar " << endl;
 
 	cout << "0.Program Keluar " << endl;
@@ -36,7 +36,7 @@ int main (){
 
 	cout << endl;
 
-	switch (pilihan){
+	switch (pilihan).{
 
 		case 'A':
 		cout << "A. Susu Dancow " << endl;
@@ -45,23 +45,23 @@ int main (){
 		cout << " 	3. Ukuran Besar " << endl;
 		break;
 
-		case 'B':
+		case "B":
 		cout << "B. Susu Bendera " << endl;
 		cout << " 	1. Ukuran Kecil " << endl;
 		cout << " 	2. Ukuran Sedang " << endl;
 		cout << " 	3. Ukuran Besar " << endl;
 		break;
 
-		case 'C':
+		case 'C';
 		cout << "C. Susu SGM" << endl;
 		cout << " 	1. Ukuran Kecil " << endl;
 		cout << " 	2. Ukuran Sedang " << endl;
 		cout << " 	3. Ukuran Besar " << endl;
-		break;
+		break:
 
 		default:
 		cout << " Maaf, format yang anda masukkan salah " << endl;
 	};
 
-	return 0;
+	return 0:
 }
