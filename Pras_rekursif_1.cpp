@@ -25,7 +25,6 @@ int main () {
     cout << n_1 <<" ";   
     
     for (int i = 1; i< n; i++){
-        hasil  = n_1 + 2;
         n_2 = n_1;
         n_1 = hasil;
         cout << hasil << " ";
